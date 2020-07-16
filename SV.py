@@ -74,19 +74,19 @@ def main():
         resp = str(res)
         if resp == '<Response [204]>':
             print(bar)
-            print("\n\033[1;32;40m [+] Data ne pakayo ... [+]")
+            print("\n\033[1;32;40m [+] Data neee ... [+]")
             print(bar)
         elif resp == '<Response [200]>':
             print(bar)
-            print("\n\033[1;32;40m [+] data enawa huththo ... [+]")
+            print("\n\033[1;32;40m [+] data enooo ... [+]")
             print(bar)
         else:
             print(bar)
-            print("\n\033[1;31;40m [+] harine ubawa block karala... [+]")
+            print("\n\033[1;31;40m [+] Signal Neee ... [+]")
             print(bar)
 
         ss+=1
-        print("\033[1;0;40m\n",str(ss), "meke deta ne ponnayo ilaga eke balapan deta evi eketh neththam hukapan",end="")
+        print("\033[1;0;40m\n",str(ss), "Iilaga Eka Enakan Thathpara 100k Inna",end="")
         for i in range(180):
 
             pr = i/180*100
